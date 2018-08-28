@@ -31,7 +31,7 @@ You'll need to have a Kubernetes cluster in place, with network policy support. 
 
 ## Create an `nginx` deployment and expose it via a service
 
-To see how Kubernetes network policy works, start off by creating an `nginx` deployment and exposing it via a service.
+To see how Kubernetes networks policy works, start off by creating an `nginx` deployment and exposing it via a service.
 
 ```console
 $ kubectl run nginx --image=nginx --replicas=2
